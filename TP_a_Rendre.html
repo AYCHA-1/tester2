@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TP A RENDRE</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="TP_a_Rendre.css"/>
+    </head>
+    <Body>
+        <form method="GET" name="form" id="form">
+            <div class="div1">
+                <h1>Inscription au tirage au sort du pelerinage de l'année 2022</h1>
+            </div>
+            <h3>Information personelles</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td><font>CIN :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <input type="text" class="txtcin" id="cin" name="cin"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font>Nom :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <input type="text" class="txtnom" id="nom"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font>Prénom :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <input type="text" class="txtprn"id="prn"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font>Année de derniére pélerinage :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <select id="annee" name="annee" required>
+                        <option>2011</option>
+                        <option>2010</option>
+                        <option>2009</option>
+                        <option>2008</option></select>&ThinSpace;<font>ANS</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font>Sexe :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <input type="radio" id="rdh" name="rd1"/><font>H</font>
+                        <input type="radio" id="rdf" name="rd1"/><font>F</font>
+                    </td>
+                </tr>
+            <div>
+            </table>
+            <div id="actif">
+                <h3>Accompagnateur(Mahram)</h3>
+                <hr>
+                <table>
+                    <tr>
+                        <td><font>CIN de l'accompagnateur :</font></td>
+                        <td style="width: 50px;"></td>
+                        <td>
+                            <input type="text" class="txtcinaccom" id="cinacc"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><font>Lien familial :</font></td>
+                        <td style="width: 50px;"></td>
+                        <td>
+                            <select id="lienf" name="lienf" required>
+                            <option>Frére</option>
+                            <option>Pére</option>
+                            <option>Soeur</option>
+                            <option>Maman</option></select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <h3>Dossier Medicale:</h3>
+            <hr>
+            <table>
+                <tr>
+                    <td><font>Group Sanguin :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <select id="grps" name="grps" required>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option></select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><font>Maladies :</font></td>
+                    <td style="width: 50px;"></td>
+                    <td>
+                        <textarea cols="20" rows="05" id="maladies">
+
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       <input type="button" id="btnsub" value="S'inscrire"/>
+                    </td>
+                </tr>
+            </table>
+            <hr>
+            <h3>Liste des inscris</h3>
+            <hr>
+            <table id="tab">
+                    <tr>
+                        <td class="td"><font>CIN :</font></td>
+                        <td class="td"><font>Nom :</font></td>
+                        <td class="td"><font>Prénom :</font></td>
+                        <td class="td"><font>Année dernier pelerinage:</font></td>
+                        <td class="td"><font>Sexe</font></td>
+                        <td class="td"><font>CIN accompagnateur</font></td>
+                        <td class="td"><font>Lien familiale</font></td>
+                        <td class="td"><font>Groupe Sanguin</font></td>
+                        <td class="td"><font>Maladies</font></td>
+                    </tr>
+            </table>
+        </form>
+        <script type="text/javascript" src="TP_a_Rendre.js"></script>
+    </Body>
+</html>

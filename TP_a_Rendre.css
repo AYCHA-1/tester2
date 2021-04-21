@@ -1,0 +1,28 @@
+.div1
+{
+    background-color: orange;
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+h3
+{
+    font-style: italic;
+}
+.td
+{
+    background-color: rgb(14, 114, 116);
+    border-collapse:collapse;
+    border: black solid 1px;
+    padding: 10px;
+    color: white;
+}
+.td2
+{
+    border-collapse:collapse;
+    border: black solid 1px;
+}
+#tab td{
+    border: 1px solid black;
+}
+
